@@ -8,180 +8,200 @@
 <body>
 
  
-  <header>
-    <div class="logo">
-      <img src="images/logo.png" alt="Three Star Media Logo">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-    <form class="submitbutton" method="get">
-                
-                <label for="input-search"></label>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/logo.png" alt="Three Star Media Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <form class="submitbutton" method="get">    
                 <input type="text" placeholder="Search" id="input-search">
-                <button>Search</button>
-                
+                <button>Search</button>          
             </form>
-
+        </div>
+    </header>
  
+    <main>
+
+  <!-- background image has to be here  -->
+
   <section id="home" class="hero">
-    <h1>Welcome to Three Star Media</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab adipisci odit, est quae reiciendis neque dolorem quisquam, id odio, eius impedit. Voluptatibus fuga sed quibusdam error earum quas ex voluptas!</p>
-    <a href="#services">Connect with us</a>
+    <div class="wrapper">
+        <h1>Welcome to Three Star Media</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab adipisci odit, est quae reiciendis neque dolorem quisquam, id odio, eius impedit. Voluptatibus fuga sed quibusdam error earum quas ex voluptas!</p>
+        <a href="#services">Connect with us</a>
+    </div>
   </section>
 
   <section id="about" class="about">
-    <img src="images/about-us.jpg" alt="Office Image">
-    <h2>About Us</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-      Curabitur ut eros vel odio malesuada egestas. 
-    </p>
+    <div class="wrapper">
+        
+        <div class="about-grid-container">
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aspernatur velit cumque rerum exercitationem, iusto nobis at eius maxime quidem modi, pariatur odio sit dolore nisi eveniet, ut ad facilis?</p>
-  </section>
+            <div class="about-child">
+                <img src="images/about-us.jpg" alt="Office Image">
+            </div>
+            
+            <div class="about-child">
+                <h2>About Us</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur ut eros vel odio malesuada egestas. 
+                </p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aspernatur velit cumque rerum exercitationem, iusto nobis at eius maxime quidem modi, pariatur odio sit dolore nisi eveniet, ut ad facilis?</p>
+            </div>
+   
+        </div>
+
+    </div>
+</section>
 
 
-  <section id="services" class="services">
-    <h2>Our Services</h2>
+    <section id="services" class="services">
+    <div class="wrapper">
+      <h2>Our Services</h2>
 
-    <article class="service">
-      <img src="images/digital.jpg" alt="Service 1">
-      <h3>Digital Transformation</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia corporis non reiciendis nulla debitis voluptatem aliquid quibusdam autem explicabo, et totam dolor temporibus dignissimos doloribus dolorum nesciunt hic. Cumque!</p>
-      <a href="#">Digital plans</a>
-    </article>
+      <div class="services-grid">
+        <article class="service">
+          <img src="images/digital.jpg" alt="Service 1">
+          <h3>Digital Transformation</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia corporis non reiciendis nulla debitis voluptatem aliquid quibusdam autem explicabo, et totam dolor temporibus dignissimos doloribus dolorum nesciunt hic. Cumque!</p>
+          <a href="#">Digital plans</a>
+        </article>
 
-    <article class="service">
-      <img src="images/marketing.jpg" alt="Service 2">
-      <h3>Marketing</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, libero. Qui rerum quo, eaque dolores laborum pariatur recusandae facere quam explicabo assumenda sequi eligendi, velit, asperiores aut nesciunt expedita mollitia.</p>
-      <a href="#">Marketing plans</a>
-    </article>
+        <article class="service">
+          <img src="images/marketing.jpg" alt="Service 2">
+          <h3>Marketing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, libero. Qui rerum quo, eaque dolores laborum pariatur recusandae facere quam explicabo assumenda sequi eligendi, velit, asperiores aut nesciunt expedita mollitia.</p>
+          <a href="#">Marketing plans</a>
+        </article>
 
-    <article class="service">
-      <img src="images/video.jpg" alt="Service 3">
-      <h3>Video Production</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et, nesciunt consequuntur corporis perferendis, distinctio, ullam ratione quis quaerat excepturi quam quidem cupiditate voluptas voluptate quia? Ut fugit reprehenderit consequuntur?</p>
-      <a href="#">Video plans</a>
-    </article>
+        <article class="service">
+          <img src="images/video.jpg" alt="Service 3">
+          <h3>Video Production</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum et, nesciunt consequuntur corporis perferendis, distinctio, ullam ratione quis quaerat excepturi quam quidem cupiditate voluptas voluptate quia? Ut fugit reprehenderit consequuntur?</p>
+          <a href="#">Video plans</a>
+        </article>
 
-    <article class="service">
-      <img src="images/web.jpg" alt="Service 4">
-      <h3>Web Development</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsam omnis, ipsa accusamus voluptas vel magni sed, porro a dolor, corrupti dolorum deserunt reiciendis perferendis dolorem nulla laborum neque. Cumque.</p>
-      <a href="#">web plans</a>
-    </article>
+        <article class="service">
+          <img src="images/web.jpg" alt="Service 4">
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsam omnis, ipsa accusamus voluptas vel magni sed, porro a dolor, corrupti dolorum deserunt reiciendis perferendis dolorem nulla laborum neque. Cumque.</p>
+          <a href="#">web plans</a>
+        </article>
 
-    <article class="service">
-      <img src="images/print.jpg" alt="Service 5">
-      <h3>Print</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsam omnis, ipsa accusamus voluptas vel magni sed, porro a dolor, corrupti dolorum deserunt reiciendis perferendis dolorem nulla laborum neque. Cumque.</p>
-      <a href="#">Print plans</a>
-    </article>
-
-    
+        <article class="service">
+          <img src="images/print.jpg" alt="Service 5">
+          <h3>Print</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsam omnis, ipsa accusamus voluptas vel magni sed, porro a dolor, corrupti dolorum deserunt reiciendis perferendis dolorem nulla laborum neque. Cumque.</p>
+          <a href="#">Print plans</a>
+        </article>
+      </div>
+    </div>
   </section>
 
 
   <section class="vision">
-    
-    <img src="images/vision.jpg" alt="Our Vision">
-
-    <h2>Our Vision</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste eum. Iure excepturi aliquid unde molestiae quidem facere recusandae vitae in atque itaque. Asperiores expedita impedit officia corporis voluptatum molestiae.
-    </p>
-     <a href="#">Learn more</a>
+    <div class="wrapper">
+      <!-- Another background image has to be added here -->
+      <h2>Our Vision</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste eum. Iure excepturi aliquid unde molestiae quidem facere recusandae vitae in atque itaque. Asperiores expedita impedit officia corporis voluptatum molestiae.
+      </p>
+      <a href="#">Learn more</a>
+    </div>
   </section>
 
 
   <section id="team" class="team">
-    <h2>Our Team</h2>
+    <div class="wrapper">
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <article class="team-member">
+          <img src="images/john.jpg" alt="John Doe">
+          <h3>John Doe</h3>
+          <h4>CEO &amp; Co-Owner</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum eos officiis quis recusandae ipsum sit cum vel fuga? Iure sint maxime cum ea placeat ducimus nulla perferendis quia ut corrupti.</p>
+        </article>
 
-    <article class="team-member">
-      <img src="images/john.jpg" alt="John Doe">
-      <h3>John Doe</h3>
-      <h4>CEO &amp; Co-Owner</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum eos officiis quis recusandae ipsum sit cum vel fuga? Iure sint maxime cum ea placeat ducimus nulla perferendis quia ut corrupti.</p>
-    </article>
-
-    <article class="team-member">
-      <img src="images/bob.jpg" alt="Bob Rite">
-      <h3>Bob Rite</h3>
-      <h4>CFO &amp; Co-Owner</h4>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus similique voluptatibus architecto cumque repellendus molestias explicabo ex quae laudantium magnam, deserunt accusantium natus quia aut, nobis quas at nam perspiciatis!</p>
-    </article>
+        <article class="team-member">
+          <img src="images/bob.jpg" alt="Bob Rite">
+          <h3>Bob Rite</h3>
+          <h4>CFO &amp; Co-Owner</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus similique voluptatibus architecto cumque repellendus molestias explicabo ex quae laudantium magnam, deserunt accusantium natus quia aut, nobis quas at nam perspiciatis!</p>
+        </article>
+      </div>
+    </div>
   </section>
 
 
   <section id="contact" class="contact">
-  <div style="display: flex; flex-wrap: wrap; gap: 40px;">
-    <div style="flex: 1; min-width: 300px;">
+    <div class="wrapper">
       <h2>Contact Us</h2>
-      <h2>Send us a message</h2>
-      <form>
-        <label for="name">Full Name</label><br>
-        <input type="text" id="name" name="name"><br><br>
+      
+      <div class="contact-grid">
+        <div class="contact-form">
+          <h3>Send us a message</h3>
+          <form>
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name"><br><br>
 
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email"><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-        <label for="message">Message</label><br>
-        <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
 
-        <button type="submit">Send</button>
-      </form>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="contact-hours">
+          <h3>Hours of operation</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday - Friday</td>
+                <td>9 AM - 4:30 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="map">
+          <h3>Location</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.900349863273!2d-75.75790842493738!3d45.34981804106504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1753827190899!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
     </div>
-
-      <div class="map">
-  <h3>Location</h3>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.900349863273!2d-75.75790842493738!3d45.34981804106504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1753827190899!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
-</div>
-  </div>
-</section>
-
-    
-
-
-
-  
-  <section>
-    <h2>Hours of operation</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Day</th>
-          <th>Hours</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Monday - Friday</td>
-          <td>9 AM - 4:30 PM</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>Closed</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>Closed</td>
-        </tr>
-      </tbody>
-    </table>
   </section>
 
 
-  
   <footer>
-  <p>&copy; Copyright Three Star Media, 2020</p>
-  <p><a href="https://unsplash.com">All images are taken from Unsplash</a></p>
-</footer>
+    <div class="wrapper">
+      <p>&copy; Copyright Three Star Media, 2020</p>
+      <p><a href="https://unsplash.com">All images are taken from Unsplash</a></p>
+    </div>
+  </footer>
