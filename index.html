@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Three Star Media</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -24,7 +27,8 @@
             </nav>
             <form class="submitbutton" method="get">    
                 <input type="text" placeholder="Search" id="input-search">
-                <button>Search</button>          
+               <button><i class="fas fa-search"></i></button>
+    
             </form>
         </div>
     </header>
@@ -34,11 +38,13 @@
   <!-- background image has to be here  -->
 
   <section id="home" class="hero">
-    <div class="wrapper">
-        <h1>Welcome to Three Star Media</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab adipisci odit, est quae reiciendis neque dolorem quisquam, id odio, eius impedit. Voluptatibus fuga sed quibusdam error earum quas ex voluptas!</p>
-        <a href="#services">Connect with us</a>
+      <div class="wrapper">
+    <div class="hero-content">
+      <h1>Welcome to Three Star Media</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab adipisci odit, est quae reiciendis neque dolorem quisquam...</p>
+      <a href="#services">Connect with us</a>
     </div>
+  </div>
   </section>
 
   <section id="about" class="about">
@@ -122,25 +128,33 @@
 
 
   <section id="team" class="team">
-    <div class="wrapper">
-      <h2>Our Team</h2>
-      <div class="team-grid">
-        <article class="team-member">
-          <img src="images/john.jpg" alt="John Doe">
-          <h3>John Doe</h3>
-          <h4>CEO &amp; Co-Owner</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum eos officiis quis recusandae ipsum sit cum vel fuga? Iure sint maxime cum ea placeat ducimus nulla perferendis quia ut corrupti.</p>
-        </article>
+  <h2>Our Team</h2>
 
-        <article class="team-member">
-          <img src="images/bob.jpg" alt="Bob Rite">
-          <h3>Bob Rite</h3>
-          <h4>CFO &amp; Co-Owner</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus similique voluptatibus architecto cumque repellendus molestias explicabo ex quae laudantium magnam, deserunt accusantium natus quia aut, nobis quas at nam perspiciatis!</p>
-        </article>
+  <div class="team-grid">
+
+    <!-- Card 1: image LEFT, text RIGHT -->
+    <article class="team-member">
+      <img src="images/john.jpg" alt="John Doe">
+      <div class="team-text">
+        <h3>John Doe</h3>
+        <h4>CEO &amp; Co-Owner</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eos officiis quis recusandae ipsum sit cum vel fuga? Iure sunt maxime cum ea placeat ducimus nulla perferendis quia ut corrupti.</p>
       </div>
-    </div>
-  </section>
+    </article>
+
+    <!-- Card 2: text LEFT, image RIGHT -->
+    <article class="team-member">
+      <div class="team-text">
+        <h3>Bob Rite</h3>
+        <h4>CFO &amp; Co-Owner</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto nihil consequuntur reiciendis sequi excepturi harum pariatur repellat tempora id, corrupti ipsum atque mollitia ducimus! Asperiores necessitatibus ducimus assumenda repellendus.</p>
+      </div>
+      <img src="images/bob.jpg" alt="Bob Rite">
+    </article>
+
+  </div>
+</section>
+
 
 
   <section id="contact" class="contact">
@@ -164,7 +178,16 @@
           </form>
         </div>
 
-        <div class="contact-hours">
+      
+        <div class="map">
+          <h3>Location</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.900349863273!2d-75.75790842493738!3d45.34981804106504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1753827190899!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <div class="contact-hours">
           <h3>Hours of operation</h3>
           <table>
             <thead>
@@ -189,15 +212,6 @@
             </tbody>
           </table>
         </div>
-
-        <div class="map">
-          <h3>Location</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.900349863273!2d-75.75790842493738!3d45.34981804106504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1753827190899!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <footer>
     <div class="wrapper">
